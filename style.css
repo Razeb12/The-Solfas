@@ -110,7 +110,7 @@ active {
 
 .heading::after {
     content: '';
-    background-color: Red;
+    background-color: red;
     width: 200px;
     height: 10px;
     display: block;
