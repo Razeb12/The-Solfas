@@ -206,7 +206,10 @@ active {
      -webkit-animation-direction: normal;
      animation-direction: normal;
 }
-
+.frame {
+    height: 300px;
+    width: 100%;
+}
 .title {
     text-align: center;
 }
