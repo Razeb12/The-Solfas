@@ -6,7 +6,7 @@ nav {
 }
 
 .navbar {
-    padding: 1.2rem;
+    padding: .1rem;
     background-color: black;
 
 }
@@ -80,7 +80,7 @@ active {
     font-size: 250%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
+    padding-bottom: 10rem;
 }
 
 .heading {
@@ -233,6 +233,11 @@ active {
 
 }
 
+@media only screen and (max-width: 450px) {
+    .controls {
+        display: none;
+    }
+}
 @media only screen and (max-width: 400px) {
     .hero {
         border-radius: 50%;
@@ -244,6 +249,7 @@ active {
     }
 
 }
+
 
 
 
