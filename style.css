@@ -1,0 +1,127 @@
+nav {
+    width: 100%;
+
+}
+
+.navbar {
+    padding: 1.2rem;
+    background-color: black;
+
+}
+
+.nav-head {
+
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}
+
+.nav-head:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: Red;
+}
+
+.navbar-nav li {
+    padding-left: 30px;
+
+}
+
+.nav-link {
+    font-size: 1;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-item,
+active {
+    color: yellow;
+}
+.carousel-inner>.item>img {
+    width: 640px;
+    height: 360px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    transform: translateY(-50%)
+}
+
+.carousel-caption h1 {
+    font: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 250%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    
+}
+.head2 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.txt {
+    text-align: center;
+}
+
+.heading::after {
+    content: '';
+    background-color:Red;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.cloud {
+    font-weight: bolder;
+}
+@media only screen and (max-width: 752px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+}
