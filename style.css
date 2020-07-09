@@ -300,6 +300,38 @@ active {
     width: 100%;
     height: 100%;
 }
+  #footer {
+      padding: 0px !important;
+      margin: 0px !important;
+      background: black;
+      color: white;
+      width: 100%;
+      padding: 5px;
+      padding-top: 10px !important;
+      margin-top: 40px !important;
+  }
+.social {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .social a {
+      font-size:50px;
+      padding: 2rem;
+
+  }
+   
+  .social a .fa-youtube {
+      color:red
+  }
+   .social a .fa-facebook-official {
+      color: #3b5998;
+  }
+
+   .social a .fa-twitter {
+      color: #00aced;
+  }
+
 @media only screen and (max-width: 1024px) {
 .carousel-caption h3 {
     font-size: 250%;
