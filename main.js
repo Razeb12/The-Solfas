@@ -27,3 +27,13 @@ $(document).ready(function () {
         }
     });
 });
+
+$(function () {
+    $("#solfas-testimonial").owlCarousel({
+        items: 1,
+        autoPlay: true,
+        smartSpeed: 400,
+        look: true,
+        autoPlayHoverPause: true,
+    });
+});

@@ -80,7 +80,7 @@ active {
     font-size: 250%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 .heading {
@@ -100,6 +100,13 @@ active {
 .head3 {
     text-align: center;
     color: black;
+    font-weight: bolder;
+
+}
+
+.head4 {
+    text-align: center;
+    color: white;
     font-weight: bolder;
 
 }
@@ -187,6 +194,26 @@ active {
      animation-direction: normal;
 }
 
+.head4::after {
+    content: '';
+    background-color: Red;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     -webkit-animation-delay: 1s;
+     animation-delay: 1s;
+     -webkit-animation-name: slide;
+     animation-name: slide;
+     -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-direction: normal;
+     animation-direction: normal;
+}
+
 .cloud::after {
     content: '';
     background-color: Red;
@@ -233,6 +260,46 @@ active {
 
 }
 
+.director1 {
+    text-align: center;
+    color: white;
+
+}
+
+.eclipse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap{
+    position: relative;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+     background-image: url('img/orchestra-2098877_1_1438x452.jpg');
+     background-size: cover;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (max-width: 1024px) {
 .carousel-caption h3 {
     font-size: 250%;
