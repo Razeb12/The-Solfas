@@ -116,12 +116,43 @@ active {
     margin-right: auto;
 }
 
+.head2::after {
+    content: '';
+    background-color: Red;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head3::after {
+    content: '';
+    background-color: Red;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cloud::after {
+    content: '';
+    background-color: Red;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title {
     text-align: center;
 }
 
 .cloud {
     font-weight: bolder;
+    text-align: center;
 }
 
 .hero {
