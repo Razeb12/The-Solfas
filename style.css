@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-link:hover {
-    color:red;
+    color: red;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -52,10 +52,12 @@ nav {
 active {
     color: yellow;
 }
+
 .carousel-inner>.item>img {
     width: 640px;
     height: 360px;
 }
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -83,13 +85,21 @@ active {
     text-align: center;
     color: black;
     font-weight: bolder;
-    
+
 }
+
 .head2 {
     text-align: center;
     color: black;
     font-weight: bolder;
-    
+
+}
+
+.head3 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
 }
 
 .txt {
@@ -98,7 +108,7 @@ active {
 
 .heading::after {
     content: '';
-    background-color:Red;
+    background-color: Red;
     width: 200px;
     height: 10px;
     display: block;
@@ -112,6 +122,19 @@ active {
 
 .cloud {
     font-weight: bolder;
+}
+
+.hero {
+    border-radius: 50%;
+    width: 380px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.director {
+    text-align: center;
 }
 @media only screen and (max-width: 752px) {
     .navbar .navbar-nav {
